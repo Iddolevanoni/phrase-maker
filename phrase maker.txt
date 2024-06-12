@@ -1,0 +1,13 @@
+Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import random
+>>> verbs = ['Leverage', 'Sync', 'Target', 'Gamify', 'Offline', 'Crowd-sourced', '24-7', 'Lean-in', '30,000 foot']
+>>> adjectives = ['A/B Tested', ' Freemium', 'Hyperlocal', 'Siloed', 'B-to-b','Oriented', 'Cloud-based', 'API-based']
+>>> nouns = ['Early Adopter', 'Low-hanging Fruit', 'Pipeline', 'Splash Page', 'Productivity', 'Process', 'Tipping Point', 'Paradigm']
+>>> verb = random.choice (verbs)
+>>> adjective = random.choice (adjectives)
+>>> noun = random.choice (nouns)
+>>> phrase = verb + ' ' + adjective + ' ' + noun
+>>> print(phrase)
+Crowd-sourced Oriented Pipeline
+>>>
